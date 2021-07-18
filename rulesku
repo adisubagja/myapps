@@ -1,0 +1,49 @@
+## Script Rules Adi Subagja
+
+
+##GameStopDownload
+- DOMAIN-SUFFIX,dl.kgid.garenanow.com,REJECT
+
+
+##EkstraUnlimited
+- DOMAIN-SUFFIX,whatsapp.com,DIRECT
+- DOMAIN-SUFFIX,whatsapp.net,DIRECT
+- DOMAIN-KEYWORD,whatsapp,DIRECT
+- DOMAIN-SUFFIX,line.me,DIRECT
+- DOMAIN-KEYWORD,line,DIRECT
+- DOMAIN-SUFFIX,tiktokcdn.com,DIRECT
+- DOMAIN-SUFFIX,tiktokv.com,DIRECT
+- DOMAIN-SUFFIX,tiktok.com,DIRECT
+- DOMAIN-KEYWORD,tiktok,DIRECT
+- DOMAIN-SUFFIX,wwww.deezer.com,DIRECT
+- DOMAIN-KEYWORD,deezer,DIRECT
+- DOMAIN-SUFFIX,spotify.com,DIRECT
+- DOMAIN-KEYWORD,spotify,DIRECT
+
+##Streaming
+- DOMAIN-SUFFIX,hotstar.com,Bisnet
+- DOMAIN-KEYWORD,hotstar,Bisnet
+- DOMAIN-SUFFIX,netflix.com,Bisnet
+- DOMAIN-KEYWORD,netflix.com,Bisnet
+
+##ProviderIndonesia
+- DOMAIN-SUFFIX,telkomsel.com,DIRECT
+- DOMAIN-KEYWORD,telkomsel,DIRECT
+
+
+##BrowsingAlll
+- DST-PORT,80,MultiGCP
+- DST-PORT,443,MultiGCP
+- DST-PORT,8080,MultiGCP
+
+##Telegram
+- DST-PORT,5222,MultiGCP
+
+##Game
+##ArenaOfValor
+- DST-PORT,17000,DIRECT
+- DST-PORT,10080,DIRECT
+
+##MobileLegends
+- DST-PORT,30190,DIRECT
+
